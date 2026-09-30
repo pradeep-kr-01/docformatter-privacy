@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample files · DocFormatter AI</title>
+<style>
+  :root { --text:#1a1d26; --muted:#5b6170; --line:#e3e6ee; --link:#3d5afe; --bg:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --text:#e8eaf0; --muted:#a3a9b8; --line:#2c3140; --link:#8c9eff; --bg:#12141b; } }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:32px 16px 48px; }
+  h1 { font-size:24px; margin:0 0 8px; }
+  p { color:var(--muted); margin:0 0 20px; }
+  a.file { display:block; padding:16px; margin:0 0 12px; border:1px solid var(--line);
+           border-radius:12px; color:var(--link); text-decoration:none; font-weight:600; }
+  a.file span { display:block; color:var(--muted); font-weight:400; font-size:14px; }
+  ol { color:var(--muted); padding-left:20px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sample files for trying DocFormatter AI</h1>
+  <p>Two small Word files: a fictional manuscript and a journal template. Download both
+     on your phone, then choose them in the app.</p>
+  <a class="file" href="sample-manuscript.docx" download>sample-manuscript.docx
+    <span>The manuscript: a short fictional paper, typed plainly in Calibri</span></a>
+  <a class="file" href="sample-template.docx" download>sample-template.docx
+    <span>The template: a journal style in Times New Roman, with capitalised headings</span></a>
+  <ol>
+    <li>Sign in to the app.</li>
+    <li>Choose <em>sample-manuscript.docx</em> as your document and
+        <em>sample-template.docx</em> as the template.</li>
+    <li>Format, then download the result. It is set in the template's style.</li>
+  </ol>
+</main>
+</body>
+</html>
