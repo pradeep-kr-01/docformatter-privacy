@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — DocFormatter AI</title>
+<meta name="description" content="What DocFormatter AI collects, why, and what happens to it.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg:#ffffff; --fg:#1a1c24; --muted:#5b5e6b; --line:#e4e6ec;
+    --accent:#4F5FF6; --soft:#f6f7fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14161f; --fg:#eceef5; --muted:#a2a7b8; --line:#2a2d3a;
+             --accent:#8e99ff; --soft:#1b1e2a; }
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  main { max-width:46rem; margin:0 auto; padding:2.5rem 1rem 4rem; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .4rem; letter-spacing:-.01em; }
+  h2 { font-size:1.22rem; margin:2.2rem 0 .6rem; letter-spacing:-.005em; }
+  h3 { font-size:1.02rem; margin:1.5rem 0 .4rem; color:var(--muted); }
+  p, li { overflow-wrap:break-word; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:2.2rem 0; }
+  table {
+    width:100%; border-collapse:collapse; margin:1rem 0;
+    display:block; overflow-x:auto;
+  }
+  th, td { border:1px solid var(--line); padding:.55rem .7rem; text-align:left; vertical-align:top; }
+  th { background:var(--soft); font-weight:650; }
+  code { background:var(--soft); padding:.1rem .35rem; border-radius:4px; font-size:.9em; }
+  strong { font-weight:650; }
+  footer { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+            color:var(--muted); font-size:.87rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy — DocFormatter AI</h1>
+<p><strong>Last updated: 30 September 2026</strong>
+<strong>Contact: pradeepkr848115@gmail.com</strong></p>
+<p>This policy describes what DocFormatter AI collects, why, and what happens to
+it. It describes what the software actually does, not what it might do — the
+behaviour below can be checked against the source.</p>
+<hr />
+<h2>The short version</h2>
+<ul>
+<li>Your manuscript is <strong>processed and deleted</strong>. It is never stored, never
+  read by a human, and never sent to any third-party AI service.</li>
+<li>We hold an email address, a hashed password, and a record of credits and
+  payments.</li>
+<li>We do not run analytics, advertising, or any tracking across apps or sites.</li>
+<li>Card details never reach our servers.</li>
+</ul>
+<hr />
+<h2>What we collect</h2>
+<h3>Your account</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Why</th>
+<th>Kept</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email address</td>
+<td>To identify your account, send password resets and receipts</td>
+<td>Until you delete your account</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>To sign you in. Stored only as a bcrypt hash — we cannot read it or recover it</td>
+<td>Until you delete your account</td>
+</tr>
+</tbody>
+</table>
+<h3>Your documents</h3>
+<p>When you format a document, the manuscript and the template are uploaded,
+processed, and <strong>deleted as soon as the request finishes</strong>. The formatted
+result is deleted about a minute after it is sent to you.</p>
+<p>We do not keep copies, we do not index the contents, and no person reads them.
+Nothing in your document is sent to any third-party service, including any AI
+or language model. The formatting engine is a rule-based program running on our
+own server.</p>
+<p>The one thing kept is a one-way fingerprint of the two files, with the credit
+they cost, so that formatting the same manuscript to the same template again
+doesn't cost a second credit. It is listed under <em>Credits and payments</em> below.</p>
+<h3>Credits and payments</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Why</th>
+<th>Kept</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Credit ledger — grants, purchases, use</td>
+<td>To show your balance and explain it if you query it</td>
+<td>Life of the account</td>
+</tr>
+<tr>
+<td>A one-way fingerprint of each manuscript and template you format together, kept with the credit it cost</td>
+<td>So formatting the same two files again doesn't cost a second credit. It can't be turned back into either file, and the same files give a different fingerprint in another account</td>
+<td>Life of the account</td>
+</tr>
+<tr>
+<td>A one-way fingerprint of your email address, and the month — only if you delete your account after receiving that month's free documents</td>
+<td>So signing up again with the same address doesn't give that month's free documents twice. It can't be turned back into your address</td>
+<td>Until that month ends</td>
+</tr>
+<tr>
+<td>Payment records — Razorpay order and payment ids, amount, plan</td>
+<td>To credit your purchase and meet tax and accounting obligations</td>
+<td>As long as the law requires, typically 7 years, even after account deletion</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Card and UPI details never reach us.</strong> Payment is handled entirely by
+Razorpay on their own page. We receive only a confirmation that a payment
+succeeded, and an identifier for it.</p>
+<h3>Technical data</h3>
+<p>Our servers keep standard access logs, which include IP addresses, for
+security and to stop abuse — for example, limiting how many times a password
+can be guessed. These are not linked to your documents.</p>
+<h3>What we do not collect</h3>
+<p>No advertising identifiers. No location. No contacts, photos, calendar or
+files beyond the documents you deliberately upload. No analytics SDK. No
+tracking of you across other apps or websites. The app requests only one
+Android permission: internet access.</p>
+<hr />
+<h2>Who else receives data</h2>
+<table>
+<thead>
+<tr>
+<th>Who</th>
+<th>What they get</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Razorpay</strong></td>
+<td>Your payment details, directly from you</td>
+<td>To take payment. Governed by <a href="https://razorpay.com/privacy/">Razorpay's privacy policy</a></td>
+</tr>
+<tr>
+<td><strong>Render</strong></td>
+<td>Everything above, as our hosting provider</td>
+<td>The servers and database run on their infrastructure</td>
+</tr>
+<tr>
+<td><strong>Resend</strong></td>
+<td>Your email address, when we send verification or reset mail</td>
+<td>Email delivery</td>
+</tr>
+<tr>
+<td><strong>Google Play</strong></td>
+<td>Install and crash data, per Google's own terms</td>
+<td>App distribution</td>
+</tr>
+</tbody>
+</table>
+<p>We do not sell your data. We do not share it for advertising. Nobody receives
+your documents.</p>
+<hr />
+<h2>Your choices</h2>
+<ul>
+<li><strong>See your data</strong> — your balance and full credit history are in the app,
+  under your account.</li>
+<li><strong>Correct it</strong> — change your password in the app; email us to change your
+  address.</li>
+<li><strong>Delete your account</strong> — from the account screen in the app, or by emailing
+  pradeepkr848115@gmail.com. Deleting removes your email, password hash, credit balance and
+  history. Payment records are retained where the law requires, reduced to the
+  minimum needed for accounting. If you had already received this month's free
+  documents, a one-way fingerprint of your email address is kept until the
+  month ends, so that signing up again doesn't renew them.</li>
+<li><strong>Unused credits are not refunded on deletion</strong>, so spend them first.</li>
+</ul>
+<hr />
+<h2>Security</h2>
+<p>Passwords are hashed with bcrypt, never stored in a readable form. Sessions
+use short-lived tokens; the long-lived one is rotated on every use, and
+presenting an old one signs the account out everywhere, on the assumption it
+was stolen. Traffic is HTTPS throughout.</p>
+<p>On your phone, the long-lived token is kept in encrypted storage, with the
+key held in the Android Keystore and bound to the device. Copying the file
+off the phone yields ciphertext that cannot be decrypted anywhere else. Your
+password is never stored on the device at all. The email address the sign-in
+screen remembers is kept in ordinary app storage, since it is not a secret.</p>
+<p>No system is perfectly secure. If you believe your account has been accessed
+by someone else, change your password — that signs out every other device —
+and tell us.</p>
+<hr />
+<h2>Children</h2>
+<p>DocFormatter AI is for adults. You must be 18 or older to create an account,
+and the sign-up form asks you to confirm it. We do not knowingly hold data
+about anyone under 18. If you believe a child has created an account, email us
+and we will delete it.</p>
+<hr />
+<h2>Changes</h2>
+<p>Material changes will be announced in the app before they take effect. The
+date at the top shows the current version.</p>
+<hr />
+<h2>Contact</h2>
+<p>DocFormatter AI — an independent developer project
+India
+pradeepkr848115@gmail.com</p>
+<p>Grievance officer: Pradeep Kumar, at the email address above. Questions and
+complaints about your data are answered within a month.</p>
+<footer>DocFormatter AI · This page is the privacy policy referenced by the app's Google Play listing.</footer>
+</main>
+</body>
+</html>
